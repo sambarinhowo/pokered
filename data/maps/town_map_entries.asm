@@ -4,6 +4,8 @@ MACRO external_map
 ENDM
 
 ; the appearance of towns and routes in the town map
+; I could add YamTown because I disabled the unused one
+; also put the towns in order and the routes too
 ExternalMapEntries:
 	table_width 3, ExternalMapEntries
 	; x, y, name
@@ -18,7 +20,8 @@ ExternalMapEntries:
 	external_map  2, 15, CinnabarIslandName
 	external_map  0,  2, IndigoPlateauName
 	external_map 10,  5, SaffronCityName
-	external_map  0,  0, PalletTownName ; unused
+	;external_map  0,  0, PalletTownName ; unused
+	external_map  2,  1, YamTownName
 	external_map  2, 10, Route1Name
 	external_map  2,  6, Route2Name
 	external_map  4,  3, Route3Name

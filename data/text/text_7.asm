@@ -198,3 +198,21 @@ _UsedCutText::
 	text " hacked"
 	line "away with CUT!"
 	prompt
+
+_WannaTrade4Text::
+	text "I'm your Mom, I"
+	line "can trade your"
+	para "own #mon back"
+	line "to you."
+	para "Wanna trade?"
+	done
+
+_NoTrade4Text::
+	text "Ok, maybe next"
+	line "time then."
+	done
+
+_Thanks4Text::
+	text "All done sweetie,"
+	line "hope that helped!"
+	done

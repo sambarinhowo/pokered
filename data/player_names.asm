@@ -27,5 +27,6 @@ DefaultNamesRival:
 	next "RED"
 	next "ASH"
 	next "JACK"
+	next "FUCKER"
 	db   "@"
 ENDC

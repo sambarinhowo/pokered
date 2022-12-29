@@ -156,6 +156,7 @@ PalletTown_TextPointers:
 	dw PalletTownText5
 	dw PalletTownText6
 	dw PalletTownText7
+	dw PalletTownTrader
 
 PalletTownText1:
 	text_asm
@@ -212,3 +213,10 @@ PalletTownText6: ; sign by Red's house
 PalletTownText7: ; sign by Blue's house
 	text_far _PalletTownText7
 	text_end
+
+PalletTownTrader: ; your mom's trade text
+	text_asm
+	ld a, TRADE_WITH_SELF
+	ld [wWhichTrade], a
+	predef DoInGameTradeDialogue
+	jp TextScriptEnd

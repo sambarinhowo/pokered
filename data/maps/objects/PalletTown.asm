@@ -16,5 +16,6 @@ PalletTown_Object:
 	object_event  8,  5, SPRITE_OAK, STAY, NONE, 1 ; person
 	object_event  3,  8, SPRITE_GIRL, WALK, ANY_DIR, 2 ; person
 	object_event 11, 14, SPRITE_FISHER, WALK, ANY_DIR, 3 ; person
+	object_event  4,  6, SPRITE_COOLTRAINER_F, STAY, DOWN, 8 ; trader
 
 	def_warps_to PALLET_TOWN
